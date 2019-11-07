@@ -1,0 +1,10 @@
+.third{
+  margin-top: 25px;
+}
+.third button{
+  height: 3em;
+  width: 22%;
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 1.1em;
+}
