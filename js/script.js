@@ -12,3 +12,12 @@ var buttonEqual=document.getElementById('equal');
 var buttonSE=document.getElementById('se');
 buttonEqual.addEventListener("click",clickEqual);
 buttonSE.addEventListener("click",clickSE);
+
+
+function clickEqual(e){
+  var result;
+  var num2 = document.getElementById('inp').value;
+}
+function clickSE(e){
+    document.getElementById('inp').value = null;
+}
