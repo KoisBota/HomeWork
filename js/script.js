@@ -7,6 +7,7 @@ function clickButton(e){
 
 function clickAll(e){
   num = document.getElementById('inp').value;
+  document.getElementById('inp').value = "";
   operator = e.target.innerText;
 }
 
