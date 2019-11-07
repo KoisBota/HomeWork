@@ -8,3 +8,13 @@
   font-weight: 600;
   font-size: 1.1em;
 }
+.fourth{
+  margin-top: 25px;
+}
+.fourth button{
+  height: 3em;
+  width: 22%;
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 1.1em;
+}
