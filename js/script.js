@@ -28,6 +28,12 @@ function clickEqual(e){
   if(operator=="*"){
       result = parseInt(num)*(parseInt(num2));
   }
+  if(operator=="/"){
+      result = parseInt(num)/(parseInt(num2));
+  }
+  if(operator=="square"){
+    result = parseInt(num)*parseInt(num);
+  }
 }
 function clickSE(e){
     text.value = "";
