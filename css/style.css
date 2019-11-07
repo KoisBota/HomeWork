@@ -1,3 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.firstBlock{
+  width:100%;
+  height: 70vh;
+  margin-top: 40px;
+}
+.container{
+  width: 25%;
+  height: 100%;
+  margin: 0 auto;
+}
+.firstB{
+  width: 100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  width: 100%;
+  height: 13vh;
+  text-align: right;
+  font-size: 2em;
+  color: black;
+}
+.secondB{
+  width: 100%;
+  height:auto;
+  background-color:#ffc0cb8a;
+}
+.first{
+  margin-top: 4px;
+}
+.first button{
+  height: 3em;
+  width: 20%;
+  margin-left: 260px;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.second{
+  margin-top: 25px;
+}
+.second button{
+  height: 3em;
+  width: 22%;
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 1.1em;
+}
 .third{
   margin-top: 25px;
 }
@@ -5,7 +58,7 @@
   height: 3em;
   width: 22%;
   margin-left: 5px;
-  font-weight: 590;
+  font-weight: 600;
   font-size: 1.1em;
 }
 .fourth{
@@ -15,7 +68,7 @@
   height: 3em;
   width: 22%;
   margin-left: 5px;
-  font-weight: 590;
+  font-weight: 600;
   font-size: 1.1em;
 }
 .fifth{
@@ -27,34 +80,4 @@
   margin-left: 87px;
   font-weight: 600;
   font-size: 1.1em;
-}
-
-*{
-  margin: 0;
-  padding: 0;
-}
-.firstBlock{
-  width:100%;
-  height: 70vh;
-  margin-top:  40px;
-}
-.container{
-  width: 25%;
-  height: 100%;
-  margin: 0 auto;
-}
-.firstB{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height:auto;
-  align-items: center;
-}
-input{
-  width: 100%;
-  height: 13vh;
-  color: black;
-  text-align: right;
-  font-size: 2em;
 }
