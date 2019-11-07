@@ -1,3 +1,16 @@
+var num;
+var operator;
+function clickButton(e){
+  text.value += e.target.innerText;
+  console.log(num);
+}
+
+function clickAll(){
+  num = document.querySelector('inp').value;
+  operator = e.target.innerText;
+}
+
+
 var button1 = document.getElementsByClassName('number');
 for(var i = 0; i < button1.length; i++){
   button1[i].addEventListener("click",clickButton);
@@ -38,3 +51,6 @@ function clickEqual(e){
 function clickSE(e){
     text.value = "";
 }
+
+
+
