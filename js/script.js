@@ -5,8 +5,8 @@ function clickButton(e){
   console.log(num);
 }
 
-function clickAll(){
-  num = document.querySelector('inp').value;
+function clickAll(e){
+  num = document.getElementById('inp').value;
   operator = e.target.innerText;
 }
 
