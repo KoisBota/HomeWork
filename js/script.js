@@ -7,3 +7,8 @@ var button2 = document.getElementsByClassName('forButton');
 for(var i=0;i<button2.length;i++){
   button2[i].addEventListener("click",clickAll);
 }
+var text=document.getElementById('inp');
+var buttonEqual=document.getElementById('equal');
+var buttonSE=document.getElementById('se');
+buttonEqual.addEventListener("click",clickEqual);
+buttonSE.addEventListener("click",clickSE);
