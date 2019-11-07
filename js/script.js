@@ -17,6 +17,17 @@ buttonSE.addEventListener("click", clickSE);
 function clickEqual(e){
   var result;
   var num2 = document.getElementById('inp').value;
+  var result;
+  var num2 = document.getElementById('inp').value;
+  if(operator=="+"){
+      result = parseInt(num)+(parseInt(num2));
+  }
+  if(operator=="-"){
+      result = parseInt(num)-(parseInt(num2));
+  }
+  if(operator=="*"){
+      result = parseInt(num)*(parseInt(num2));
+  }
 }
 function clickSE(e){
     text.value = "";
