@@ -46,6 +46,7 @@ function clickEqual(e){
   if(operator=="square"){
     result = parseInt(num)*parseInt(num);
   }
+  document.getElementById('inp').value=result;
 }
 function clickSE(e){
     document.getElementById('inp').value = "";
