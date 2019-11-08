@@ -21,6 +21,9 @@ var button2 = document.getElementsByClassName('forButton');
 for(var i = 0; i < button2.length; i++){
   button2[i].addEventListener("click", clickAll);
 }
+var square = document.getElementById('square');
+var cube = document.getElementById('cube');
+var root = document.getElementById('root');
 var text = document.getElementById('inp');
 var buttonEqual = document.getElementById('equal');
 var buttonSE = document.getElementById('se');
@@ -43,8 +46,14 @@ function clickEqual(e){
   if(operator=="/"){
       result = parseInt(num)/(parseInt(num2));
   }
-  if(operator=="square"){
+  if(operator=="x^2"){
     result = parseInt(num)*parseInt(num);
+  }
+   if(operator=="x^3"){
+    result = parseInt(num) * parseInt(num) * parseInt(num);
+  }
+   if(operator=="x^(1/2)"){
+    result = Math.sqrt(parseInt(num));
   }
   document.getElementById('inp').value=result;
 }
