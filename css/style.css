@@ -33,6 +33,8 @@ input{
 }
 .first{
   margin-top: 4px;
+  display: flex;
+  flex-direction: row;
 }
 .first button{
   height: 3em;
